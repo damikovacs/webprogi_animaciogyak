@@ -37,15 +37,15 @@ body {
 }
 
 @keyframes hajoMozgas {
-    0% { left: -250px; }
+    0% { left: 120px; }
     100% { left: 100vw; }
 }
 
  @keyframes napMozgas {
     0% { bottom: 0; left: 0; }
-    25% { bottom: 40%; left: 40%; }
+    25% { bottom: 25%; left: 25%; }
     50% { bottom: 50%; left: 50%; }
-    75% { bottom: 40%; left: 80%; }
+    75% { bottom: 25%; left: 75%; }
     100% { bottom: 0; left: 100%; }
 }
 
@@ -56,7 +56,6 @@ body {
 
 @keyframes egbolt {
     0%   { background: black; }
-    25%  { background: lightblue; }
-    75%  { background: lightblue; }
+    50%  { background: lightblue; }
     100% { background: black; }
 }
